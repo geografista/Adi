@@ -1,0 +1,100 @@
+body {
+
+background-color: white;
+
+
+
+}
+.powrot{margin-top:100%;margin-bottom:20px;display:block;}
+.left{width:620px;height:400px;float:left;margin-bottom:10px;}
+.right{width:620px;height:400px;float:right;margin-bottom:10px;}
+.tlo{display:block;width:95%;height:100%;margin:0 auto 100px auto;padding:10px;}
+.przy1{display: relative; margin-top:3%;margin-right:20px;}
+.fot{width:90%;height:90%;}
+.wakacje{display:block;width:80%;height:700px;margin:0 auto;padding:10px;margin-bottom:10%;margin-top:100px;}
+.ramka{width:100%;height:700px;display:block;border-style:solid;border-color:black;margin:0px;padding:0px;border:0px;}
+.oau{display:block;margin-top:100px;border:0px;width:30%;height:500px;padding:100px;float:left;}
+.oo{color:grey;margin:0px;border:0px;}
+.focia{width:100%;height:100%;}
+.bobo{margin:0px;}
+.fo{display:block;width:30%;height:500px;padding:100px;float:right;margin:100px 0px 0px 0px;}
+.a{width:auto;height:100px;}
+.front {background-color: black; position:fixed;}
+.front{display:block;}
+.front {width: 100%; height: 100px;}
+.front{margin-top:0px;}
+.front{padding-top:0px;}
+.front{border: 0px;}
+.front{border-style: solid;border-color:black;}
+
+.przy {display: relative; margin-top:3%;}
+.zdjecia1{background-color:black;}
+.zdjecia1{width:100px;height:100px;}
+.zdjecia1{margin:10px;}
+.zdjecia1{border:10px;border-color:black;border-style:solid;}
+.zdjecia1{display:block;}
+.zdjecia1{margin:100px auto 10px auto;}
+
+
+.zdjecia2{background-color:black;}
+.zdjecia2{width:100px;height:100px;}
+.zdjecia2{margin:10px;}
+.zdjecia2{border:10px;border-color:black;border-style:solid;}
+.zdjecia2{display:block;}
+.zdjecia2{margin:-130px 200px 10px auto;}
+
+
+.zdjecia3{background-color:black;}
+.zdjecia3{width:100px;height:100px;}
+.zdjecia3{margin:10px;}
+.zdjecia3{border:10px;border-color:black;border-style:solid;}
+.zdjecia3{display:block;}
+.zdjecia3{margin:-130px 200px 10px 200px;}
+
+
+.fotka{size:auto; width:100%; height:100%;}
+.fotka2{size:auto; width:100%; height:100%;}
+.fotka3{size:auto; width:100%; height:100%;}
+
+.galeria{margin: 0 auto;}
+.galeria{display:block;}
+.galeria{width: 400px; height: 400px;}
+.galeria{border-width: 10px;}
+.galeria{border-style: solid;border-color:black;}
+
+.t{margin: 0 auto;margin-right:1%;}
+.t{border-width: 10px;}
+.t{border-style: solid;border-color:black;}
+.t{display:block;}
+.t{width: 400px; height: 400px;}
+.te{width:90%;}
+.te{margin-top:15%;margin-bottom:15%;}
+
+.x{margin: -420px auto;margin}
+.x{border-width: 10px;}
+.x{border-style: solid;border-color:black;}
+.x{display:block;}
+.x{width: 400px; height: 400px;}
+.tej{width:90%;}
+.tej{margin-top:15%;margin-bottom:15%;}
+
+.z{margin: -400px auto;margin-left:1%;}
+.z{border-width: 10px;}
+.z{border-style: solid;border-color:black;}
+.z{display:block;}
+.z{width: 400px; height: 400px;}
+.tem{width:90%;}
+.tem{margin-top:15%;margin-bottom:15%;}
+
+
+
+
+
+.video{margin:0 auto;}
+.video{width:100%; height:100%;}
+.video{display:block;}
+.o{margin-right: 5px;border-style:solid;border-color:black;border-width:5px;display:table-cell;width:560px;height:auto;}
+
+
+.naglowek{margin:0 auto; margin-bottom:10px;width:300px; height:100px;display:block; border-style:solid;border-color:black;border-width:10px;background-color:white;}
+.napisy{margin: 10% auto;}

@@ -40,7 +40,7 @@ border-radius:10px;
 padding:5px 0;
 background-color:#54743b;
 font-family: 'Dancing Script', cursive;
-left:center;
+
 top:0;
 z-index:100;
 }
@@ -99,7 +99,7 @@ border-top:none;
 .ad img{
 width:100%;
 }
-footer{
+#footer{
 text-align:center;
 width:996px;
 height:100px;

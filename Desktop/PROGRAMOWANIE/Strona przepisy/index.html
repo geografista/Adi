@@ -5,8 +5,10 @@
 
     <meta charset="utf-8" />
     <title>Najlepsze przepisy w internecie!</title>
-    <meta name="description" content="Serwis prezentuje najpopularniejsze przepisy kuchni z całego świata. Sprawdź je już teraz!" />
-    <meta name="keywords" content="przepisy, kuchnia, kulinaria, jedzenie, obiad, deser, śniadanie, kolacja, kuchnia polska, gotowanie" />
+    <meta name="description"
+        content="Serwis prezentuje najpopularniejsze przepisy kuchni z całego świata. Sprawdź je już teraz!" />
+    <meta name="keywords"
+        content="przepisy, kuchnia, kulinaria, jedzenie, obiad, deser, śniadanie, kolacja, kuchnia polska, gotowanie" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="css/fontello.css" type="text/css">
@@ -52,6 +54,14 @@
         <main>
             <div id="main">
                 <header>
+
+                    <form action="get">
+                        <label for="szukaj"></label>
+                        <input type="search" name="szukaj" placeholder="Wyszukaj przepis..."
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Wyszukaj przepis...'">
+                        <input type="submit" value="Szukaj">
+                    </form>
+
                     <div class="header"><a href="#">Przystawki</a></div>
                 </header>
                 <div class="gallery">

@@ -4,17 +4,12 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-#container {
-    width: 1000px;
-    margin: 0 auto;
-
-
+.container {
+    padding: 0;
 }
 
+
 #logo {
-    width: 996px;
-    height: 168px;
-    margin: 0;
     line-height: 168px;
     font-size: 60px;
     text-align: center;
@@ -27,6 +22,8 @@ body {
 
 #logo img {
     border-radius: 10px;
+    display: block;
+
 }
 
 #logo a {
@@ -34,20 +31,24 @@ body {
     float: left;
 }
 
+#logo p {
+    margin-bottom: 0;
+}
+
 #menu {
     position: sticky;
     text-align: center;
-    width: 996px;
-    height: 50px;
+    height: 60px;
+    min-height: 50px;
     border: solid #f8c05b 2px;
     border-top: none;
     border-radius: 10px;
     padding: 5px 0;
     background-color: #54743b;
     font-family: 'Dancing Script', cursive;
-
     top: 0;
     z-index: 100;
+
 }
 
 .sticky {}
@@ -57,7 +58,7 @@ ul {
     padding: 0;
     list-style-type: none;
     font-size: 24px;
-    height: 50px;
+    height: 55px;
     line-height: 200%;
 
     display: inline-block;
@@ -66,28 +67,34 @@ ul {
 ul>li {
     display: block;
     float: left;
+    margin: 0 10px;
     min-width: 120px;
     text-decoration: none;
-    line-height: 50px;
     border-radius: 10px;
     transition: all 0.5s ease;
 }
 
 ul li:hover {
     background-color: #37340f;
-    color: ;
+
 }
 
 ul a {
     color: #f8c05b;
     text-decoration: none;
     display: block;
+    transition: all .5s ease;
+}
+
+ul a:hover {
+    color: #f8c05b;
+    text-decoration: none;
 }
 
 #main {
     background-color: #54743b;
-    float: left;
-    width: 676px;
+
+
     padding: 10px;
     border: 2px solid #f8c05b;
     border-radius: 10px;
@@ -97,14 +104,12 @@ ul a {
 
 .ad {
     background-color: #54743b;
-    float: left;
-    width: 278px;
     padding: 10px;
     border: 2px solid #f8c05b;
     border-radius: 10px;
     border-left: none;
     border-top: none;
-    height: 617.2px;
+    height: 655.2px;
 }
 
 .ad img {
@@ -114,9 +119,9 @@ ul a {
 
 #footer {
     text-align: center;
-    width: 996px;
-    height: 100px;
-    clear: both;
+
+    min-height: 100px;
+
     border: 2px solid black;
     border-radius: 10px;
     border-top: none;
@@ -128,7 +133,7 @@ ul a {
 }
 
 .socials {
-    clear: both;
+
     width: 100%;
     height: 100px;
     text-align: center;
@@ -286,6 +291,7 @@ ul a {
 
 .gallery p {
     margin: 0;
+    line-height: 20px;
     height: 20px;
 }
 
@@ -424,4 +430,124 @@ input[type=submit]:hover {
 input[type=submit]:focus {
     box-shadow: 1px 1px 15px rgba(245, 167, 0, 0.829);
 
+}
+
+#footer p {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+@media (min-width:992px) {
+    #menu {
+        height: 110px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    ul>li {
+        display: inline-block;
+        min-width: 90px;
+        margin: 0 10px;
+        float: none;
+    }
+
+    #menu {
+        height: 60px;
+    }
+
+    #logo {
+        line-height: 100px;
+        text-align: center;
+    }
+
+    #logo p {
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+
+    #logo a {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        padding: 20px 20px;
+        margin: 0;
+    }
+
+    #logo img {
+        width: 100%;
+
+    }
+
+    .header {
+        min-width: 30%;
+    }
+
+}
+
+@media (min-width:1200px) {
+    #menu {
+        height: 60px;
+    }
+
+    #logo img {
+        border-radius: 10px;
+        display: block;
+
+    }
+
+    #logo a {
+        display: block;
+        float: left;
+    }
+
+    #logo p {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (min-width: 992px; max-width: 1199px) {
+    #menu {
+        height: 60px;
+    }
+
+    #logo a {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        padding: 20px 100px 0 100px;
+        margin: 0;
+    }
+
+    #logo img {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    #menu {
+
+        height: 110px;
+    }
+
+    .ad {
+        border: 2px solid #f8c05b;
+        border-top: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #footer {
+        line-height: 40px;
+        min-height: 80px;
+    }
 }
